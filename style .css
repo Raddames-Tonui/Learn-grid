@@ -31,3 +31,20 @@ body{
     background-color: gray;
 }
 
+
+/* Link styling */
+
+.flex{
+    
+
+}
+.flex ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+a{
+    text-decoration: none;
+    
+}
