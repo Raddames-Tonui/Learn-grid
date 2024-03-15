@@ -10,42 +10,41 @@
         body{
             text-align: center;
         }
-        #columngrid
-            {
-    
-                display: grid;
-                grid-template-columns: repeat(4,1fr);
-                grid-auto-rows:minmax(70px, auto);
-                grid-gap: 4px;
-                max-width: 90%;
-                margin: auto;
-                grid-template-areas: 
-                "header header header header"
-                "aside main main main "
-                "aside main main main "
-                "section section section section"
-                "footer footer footer footer";
-            }
+@media screen and (min-width:760px) {
+    #columngrid
+    {
 
-@media screen and (min-width:760px) 
-        {
-            #columngrid
-            {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-auto-rows:minmax(70px, auto);
+        grid-gap: 4px;
+        max-width: 90%;
+        margin: auto;
+        grid-template-areas: 
+        "header header header header"
+        "aside main main main "
+        "aside main main main "
+        "section section section section"
+        "footer footer footer footer";
+    }
     
-                display: grid;
-                grid-template-columns: repeat(4,1fr);
-                grid-auto-rows:minmax(70px, auto);
-                grid-gap: 4px;
-                max-width: 90%;
-                margin: auto;
-                grid-template-areas: 
-                "header header header header"
-                "aside main main main "
-                "aside main main main "
-                "section section section section"
-                "footer footer footer footer";
-            }
-        }
+}
+    #columngrid
+    {
+
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-auto-rows:minmax(70px, auto);
+        grid-gap: 4px;
+        max-width: 90%;
+        margin: auto;
+        grid-template-areas: 
+        "header header header header"
+        "aside main main main "
+        "aside main main main "
+        "section section section section"
+        "footer footer footer footer";
+    }
 
 #columngrid >*{
     color: black;
