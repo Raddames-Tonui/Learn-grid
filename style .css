@@ -4,6 +4,8 @@ body{
 
 }
 
+/* Index.html */
+
 #container{
     margin: 0 auto;
     max-width: 90%;
@@ -28,3 +30,4 @@ body{
 #container div:nth-child(even){
     background-color: gray;
 }
+
